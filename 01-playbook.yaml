@@ -5,3 +5,16 @@
   - name: ping server
     ansible.builtin.debug:
       msg: "hello ansible"
+
+- name: nginx installation playbook
+  host: all
+  become: yes
+  tasks:
+  - name: nginx install
+    ansible.builtin.package:
+      name: nginx
+      state: present
+  - name: nginx service start
+    ansible.builtin.service:
+      name: nginx
+      state: started
