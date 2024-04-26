@@ -6,5 +6,6 @@
   tasks:
   - name: variables task-1
     ansible.builtin.debug:
-    var: LOCATION: "Hyberabad"
+    vars:
+      LOCATION: "Hyberabad"
       msg: "My name is {{USERNAME}} and location is {{LOCATION}}"
