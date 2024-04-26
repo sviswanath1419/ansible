@@ -6,4 +6,4 @@
   tasks:
   - name: variables task-1
     ansible.builtin.debug:
-      msg: "My name is {{var.USERNAME}} and location is {{var.LOCATION}}"
+      msg: "My name is {{USERNAME}} and location is {{LOCATION}}"
