@@ -1,6 +1,6 @@
 - name: ping playbook
-  hosts: all
-tasks:
+  hosts: web
+  tasks:
   - name: ping server
     ansible.builtin.debug:
       msg: "hello ansible"
