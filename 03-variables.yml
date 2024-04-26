@@ -1,0 +1,9 @@
+- name: variables example
+  hosts: localhost
+  vars:
+    USERNAME: "viswanath"
+    LOCATION: "allagadda"
+  tasks:
+  - name: variables task-1
+    ansible.builtin.debug:
+      msg: "My name is {{var.USERNAME}} and location is {{var.LOCATION}}"
