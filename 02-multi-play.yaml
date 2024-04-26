@@ -4,7 +4,7 @@
   #become: yes
   tasks:
   - name: play-1 task-1
-    ansible.builtin.message:
+    ansible.builtin.debug:
       msg: "hell0 play-1 task-1"
 
 - name: play-2 task-2
@@ -12,5 +12,5 @@
   #become: yes
   tasks:
   - name: play-2 task-2
-    ansible.builtin.message:
+    ansible.builtin.debug:
       msg: "hello play-2 task-2"
