@@ -1,0 +1,16 @@
+# Playbook contains multiple plays
+- name: play-1 task-1
+  hosts: localhost
+  #become: yes
+  tasks:
+  - name: play-1 task-1
+    ansible.builtin.message:
+     msg: "hell0 play-1 task-1"
+
+- name: play-2 task-2
+  hosts: localhost
+  #become: yes
+  tasks:
+  - name: play-2 task-2
+    ansible.builtin.message:
+     msg: "hello play-2 task-2"
