@@ -3,9 +3,9 @@
   hosts: localhost
   #become: yes
   tasks:
-  - name: play-1 task-1
-    ansible.builtin.message:
-     msg: "hell0 play-1 task-1"
+    - name: play-1 task-1
+      ansible.builtin.message:
+        msg: "hell0 play-1 task-1"
 
 - name: play-2 task-2
   hosts: localhost
@@ -13,4 +13,4 @@
   tasks:
   - name: play-2 task-2
     ansible.builtin.message:
-     msg: "hello play-2 task-2"
+      msg: "hello play-2 task-2"
