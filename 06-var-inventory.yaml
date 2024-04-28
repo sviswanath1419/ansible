@@ -1,6 +1,6 @@
 - name: var from inventory
   hosts: localhost
   tasks:
-  - name: var file prompt input
+  - name: var file from inventory
     ansible.builtin.debug:
       msg: "enter input file {{Name}} is {{Hero}}"
