@@ -10,6 +10,10 @@
       ansible: 2
       jenkins: 3
   tasks:
-  - name: data types
+  - name: data list types
     ansible.builtin.debug:
-      msg: "{{Technologies}} and {{Skill}}""
+      msg: "{{Technologies}} and {{Skill}}"
+
+  # - name: data map types
+  #   ansible.builtin.debug:
+  #     msg: "{{Technologies}} and {{Skill}}""
