@@ -3,7 +3,7 @@
   var_files:
   - testfile.yaml
   tasks:
-    - name: var file input
-      ansible.builtin.debug:
-        msg: "enter input file {{name}}"
+  - name: var file input
+    ansible.builtin.debug:
+      msg: "enter input file {{name}}"
     
