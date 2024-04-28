@@ -12,7 +12,7 @@
     ansible.builtin.debug:
       msg: "{{result}} and {{result.rc}}"
 
-  - name: conditon for user check
+  - name: conditon for user check when
     ansible.builtin.user:
       name: viswa2
     when: result.rc != 0
