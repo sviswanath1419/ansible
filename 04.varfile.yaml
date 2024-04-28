@@ -1,0 +1,9 @@
+- name: var file practice
+  hosts: localhost
+  var_files:
+    - testfile.yaml
+  tasks:
+    - name: var file input
+      ansible.builtin.debug:
+        msg: "enter input file"
+    
