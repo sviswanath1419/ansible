@@ -1,0 +1,10 @@
+- name: loops practice
+  hosts: localhost
+  tasks:
+  - name: loop values print
+    ansible.builtin.debug:
+      msg: " the values {{item}}"
+    loop:
+    - viswa
+    - dhrvi
+    - vishali
