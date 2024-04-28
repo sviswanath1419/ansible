@@ -13,4 +13,4 @@
   - name: data types
     ansible.builtin.debug:
       msg: "{{Technologies}}"
-      msg: "{{skill}}"
+      msg: "{{Skill}}"
