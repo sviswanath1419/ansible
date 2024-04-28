@@ -12,8 +12,8 @@
   tasks:
   - name: data list types
     ansible.builtin.debug:
-      msg: "{{Technologies}} and {{Skill}}"
+      msg: "{{Skill}}"
 
-  # - name: data map types
-  #   ansible.builtin.debug:
-  #     msg: "{{Technologies}} and {{Skill}}""
+  - name: data map types
+    ansible.builtin.debug:
+      msg: "{{Technologies}}""
