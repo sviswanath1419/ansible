@@ -10,4 +10,4 @@
 
   - name: print value
     ansible.builtin.debug:
-      msg: "{{result}} {{result.rc}}"
+      msg: "{{result}} and {{result.rc}}"
