@@ -3,7 +3,7 @@
   tasks:
   - name: conditon for user check
     ansible.builtin.command:
-      id viswa1
+      # id viswa1
       useradd viswa1
     register: result
     ignore_errors: True
