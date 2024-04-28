@@ -3,7 +3,8 @@
   tasks:
   - name: loop values print
     ansible.builtin.package:
-      msg: " the values {{item}}"
+      name: {{item}}
+      state: preset
     loop:
     - git
     - ansible
