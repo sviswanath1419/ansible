@@ -6,6 +6,7 @@
       id viswa1
       useradd viswa1
     register: result
+    ignore_errors: True
 
   - name: print value
     ansible.builtin.debug:
