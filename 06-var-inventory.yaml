@@ -4,4 +4,4 @@
   tasks:
   - name: var file from inventory
     ansible.builtin.debug:
-      msg: "enter input file {{Name}} is {{Hero}} {{Devops}}"
+      msg: "enter input file {{Devops}}"
