@@ -19,7 +19,7 @@
     ansible.builtin.debug:
       msg: "{{Technologies}}"
 
- - name: data bool types
+  - name: data bool types
     ansible.builtin.debug:
       msg: "{{boolvalue}}"
   
