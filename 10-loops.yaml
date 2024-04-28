@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   - name: loop values print
-    ansible.builtin.packages:
+    ansible.builtin.package:
       msg: " the values {{item}}"
     loop:
     - git
