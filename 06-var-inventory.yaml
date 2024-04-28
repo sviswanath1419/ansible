@@ -1,4 +1,4 @@
-- name: var from prompt
+- name: var from inventory
   hosts: localhost
   tasks:
   - name: var file prompt input
