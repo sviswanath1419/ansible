@@ -12,5 +12,4 @@
   tasks:
   - name: data types
     ansible.builtin.debug:
-      msg: "{{Technologies}}"
-      msg: "{{Skill}}"
+      msg: "{{Technologies}} and {{Skill}}""
