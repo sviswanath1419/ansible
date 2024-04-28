@@ -7,7 +7,7 @@
       useradd viswa1
     register: result
     ignore_errors: True
-    when: result.rc != 0
+  when: result.rc != 0
 
   - name: print value
     ansible.builtin.debug:
