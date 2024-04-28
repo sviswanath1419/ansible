@@ -5,7 +5,7 @@
     prompt: "Eneter user name"
     private: fasle
   - name: PASSWORD
-    prompt: "ENter password"
+    prompt: "Enter password"
     private: true
 
   tasks:
