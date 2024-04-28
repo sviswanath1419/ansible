@@ -5,6 +5,6 @@
     ansible.builtin.debug:
       msg: " the values {{item}}"
     loop:
-    viswa: 36
-    dhrvi: 2
-    vishali: 30
+    - viswa
+    - dhrvi
+    - vishali
