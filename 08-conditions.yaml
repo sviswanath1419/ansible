@@ -1,0 +1,7 @@
+- name: conditions practice
+  hosts: localhost
+  tasks:
+  - name: conditon for user check
+    ansible.builtin.command:
+      shell: useradd viswa
+      register: result
