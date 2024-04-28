@@ -1,0 +1,16 @@
+- name: data types practice
+  hosts: localhost
+  vars:
+    Technologies:
+    - Devops
+    - ansible
+    - jenkins
+    Skill:
+      devops: 7
+      ansible: 2
+      jenkins: 3
+  tasks:
+  - name: data types
+    ansible.builtin.debug:
+      msg: "{{Technologies}}"
+      msg: "{{skill}}"
