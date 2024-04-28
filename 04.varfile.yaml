@@ -1,6 +1,6 @@
 - name: var file practice
   hosts: localhost
-  var_files:
+  vars_files:
   - variables.yaml
   tasks:
   - name: var file input
