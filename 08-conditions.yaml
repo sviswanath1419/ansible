@@ -15,4 +15,4 @@
   - name: conditon for user check when
     ansible.builtin.user:
       name: viswa3
-    when: result.rc != 0
+    when: result.rc != 1
