@@ -1,0 +1,14 @@
+- name: var from prompt
+  hosts: localhost
+  vars_prompt:
+  - name: USERNAME
+    prompt: "Eneter user name"
+    private: fasle
+  - name: PASSWORD
+    prompt: "ENter password"
+    private: true
+
+  tasks:
+  - name: var file prompt input
+    ansible.builtin.debug:
+      msg: "enter input file {{USERNAME}} and {{PASSWORD}}"
