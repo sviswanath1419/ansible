@@ -1,0 +1,6 @@
+- name: var from prompt
+  hosts: localhost
+  tasks:
+  - name: var file prompt input
+    ansible.builtin.debug:
+      msg: "enter input file {{Name}} is {{Hero}}"
