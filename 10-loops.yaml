@@ -4,7 +4,7 @@
   - name: loop values print
     ansible.builtin.package:
       name: "{{item}}""
-      state: preset
+      state: present
     loop:
     - git
     - ansible
