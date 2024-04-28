@@ -3,7 +3,7 @@
   tasks:
   - name: conditon for user check
     ansible.builtin.command:
-      id viswa
+      id viswa1
       # useradd viswa
     register: result
 
