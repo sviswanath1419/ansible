@@ -9,7 +9,7 @@
       devops: 7
       ansible: 2
       jenkins: 3
-    bool: true
+    boolvalue: true
   tasks:
   - name: data map types
     ansible.builtin.debug:
@@ -21,5 +21,5 @@
 
  - name: data bool types
     ansible.builtin.debug:
-      msg: "{{bool}}"
+      msg: "{{boolvalue}}"
   
