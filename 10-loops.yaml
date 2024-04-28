@@ -3,7 +3,7 @@
   tasks:
   - name: loop values print
     ansible.builtin.package:
-      name: {{item}}
+      name: "{{item}}""
       state: preset
     loop:
     - git
