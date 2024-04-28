@@ -3,5 +3,10 @@
   tasks:
   - name: conditon for user check
     ansible.builtin.command:
-      shell: useradd viswa
-      register: result
+      id viswa
+      # useradd viswa
+    register: result
+
+  - name: print value
+    ansible.builtin.debug:
+      msg: "result"
