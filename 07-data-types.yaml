@@ -16,4 +16,4 @@
 
   - name: data map types
     ansible.builtin.debug:
-      msg: "{{Technologies}}""
+      msg: "{{Technologies}}"
